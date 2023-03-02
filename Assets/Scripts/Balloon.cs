@@ -5,7 +5,7 @@ using System;
 
 public class Balloon : MonoBehaviour
 {
-    public int partsNeeded = 3; // the number of body parts needed to collect the balloon
+    public int partsNeeded = 7; // the number of body parts needed to collect the balloon
     public GameObject[] bodyParts; // an array of the body parts that are needed to collect the balloon
 
     private PlayerController playerController; // a reference to the PlayerController script

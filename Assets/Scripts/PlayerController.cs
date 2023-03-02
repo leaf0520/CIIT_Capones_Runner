@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public int bodyParts = 0;
-    public bool[] bodyPartStatus = new bool[3]; // using a bool array to track which body parts are missing
+    public bool[] bodyPartStatus = new bool[7]; // using a bool array to track which body parts are missing
     public bool isFloating = false;
 
     private void OnCollisionEnter(Collision collision)
